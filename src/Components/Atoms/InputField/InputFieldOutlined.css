@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "MadeOuterSansLight";
+    src: url(../../../Assets//fonts/MadeOuterSansLight.otf);
+  }
+  
+
+.input_field_outlined_main{
+    width: 80%;
+    height: 40px;
+    /* background-color: red; */
+    border-radius: 7px;  
+    border: 1px solid lightgray;
+    background-color: #f8f7fc;
+    outline: none;
+    font-family: 'MadeOuterSansLight', sans-serif;
+    color: #07074E;
+
+}
+.input_field_css_outlined{
+    height: 100%;
+    width: 94%;
+    border-radius: 7px;
+    padding-left: .9rem;
+    outline: none;
+    border: none;
+    background-color: #f8f7fc;
+    font-size: 15px;
+    color: #07074E;
+    font-family: 'MadeOuterSansLight', sans-serif;
+
+}
+.input_field_css_outlined::placeholder{
+    color: grey;
+    font-family: 'MadeOuterSansLight', sans-serif;
+
+}

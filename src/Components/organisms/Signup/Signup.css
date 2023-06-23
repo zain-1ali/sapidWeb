@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "MadeOuterSansLight";
+    src: url(../../../Assets//fonts/MadeOuterSansLight.otf);
+  }
+  
+
+.Signup_main_div{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.Signup_sub_main_div{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f7fc;
+}
+.signup_back_icon_div{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.signup_image_container{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: contain;
+    padding-top: 2rem;
+}
+.signup_sapid_logo_css{
+    height: 100%;
+    width: 100%;
+}
+.create_your_account_text_div{
+    padding-top: 1.5rem;
+    /* color: rgb(29, 28, 28); */
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #07074E;
+    font-family: 'MadeOuterSansLight', sans-serif;
+}
+.signup_input_fields_main_div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.signup_one_input_field_div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #f8f7fc;
+    /* background-color: cadetblue; */
+}
+.important_note_div{
+    width: 80%;
+}
+.important_note_css{
+    font-size: 11px;
+    color: #07074E;
+    /* color: rgb(117, 114, 114); */
+    font-family: 'MadeOuterSansLight', sans-serif;
+}
+.terms_condition_div_main{
+    font-size: 1rem;
+    color: #07074E;
+    font-family: 'MadeOuterSansLight', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 8px;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 12px;
+    /* color: rgb(2, 2, 53); */
+    line-height: 1.2rem;
+}
+.terms_condition_css{
+    font-weight: 600;
+    color: rgb(2, 2, 53);
+    font-family: 'MadeOuterSansLight', sans-serif;
+}
+.signupAllInputFields_css{
+    font-family: 'MadeOuterSansLight', sans-serif;
+}
